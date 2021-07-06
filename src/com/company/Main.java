@@ -44,3 +44,5 @@ public class Main {
         System.out.println("Average monthly rainfall: " + averageTotalRainfall); // Displays average rainfall
     }
 }
+
+// Testing changes, learning how to use Github
