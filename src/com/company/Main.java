@@ -56,7 +56,7 @@ public class Main {
         }
         averageTotalRainfall = totalRainfall / totalMonths;  // Calculates average rainfall
         System.out.println("Number of months: " + totalMonths);
-        System.out.println("Total rainfall: " + totalRainfall);
-        System.out.println("Average monthly rainfall: " + averageTotalRainfall);
+        System.out.printf("Total rainfall: %.2f\n", totalRainfall);
+        System.out.printf("Average monthly rainfall: %.2f\n", averageTotalRainfall);
     }
 }
